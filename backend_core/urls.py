@@ -21,7 +21,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('gallery.urls')),
+    path('', include('gallery.urls')),
 ]
 
 # This allows us to view the images in the browser during development
